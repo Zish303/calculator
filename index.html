@@ -4,66 +4,41 @@
 <head>
     <title>Document</title>
 </head>
-<style>
-    body {
-        padding: 0% 14%;
-    }
-
-    input {
-        width: 100%;
-        height: 25px;
-    }
-
-    .box {
-        width: 100%;
-        text-align: center;
-    }
-
-    button {
-        width: 80px;
-        height: 80px;
-    }
-
-    #ans,
-    #val {
-        text-align: right;
-        font-size: 18px;
-    }
-    #val{
-        color: rgb(80, 80, 80);
-        font-size: 14px;
-    }
-</style>
+<link rel="stylesheet" href="style.css">
 
 <body>
-    <input id="val" type="text">
-    <input id="ans" type="text">
-    <div class="box">
-        <div class="lin">
-            <button id="7" onclick="on7()">7</button>
-            <button id="8" onclick="on8()">8</button>
-            <button id="9" onclick="on9()">9</button>
-            <button id="C" onclick="onC()">C</button>
-            <button id="AC" onclick="onAC()">AC</button>
+    <div id="container">
+        <div id="input">
         </div>
-        <div class="lin">
-            <button id="4" onclick="on4()">4</button>
-            <button id="5" onclick="on5()">5</button>
-            <button id="6" onclick="on6()">6</button>
-            <button id="*" onclick="onmul()">x</button>
-            <button id="/" onclick="ondiv()">/</button>
-        </div>
-        <div class="lin">
-            <button id="1" onclick="on1()">1</button>
-            <button id="2" onclick="on2()">2</button>
-            <button id="3" onclick="on3()">3</button>
-            <button id="+" onclick="onpl()">+</button>
-            <button id="-" onclick="onmin()">-</button>
-        </div>
-        <div class="lin">
-            <button id="0" onclick="on0()">0</button>
-            <button id="." onclick="onper()">.</button>
-            <button id="=" onclick="oneq()">=</button>
+        <div class="box">
+            <div class="lin">
+                <button id="AC" class="btn" onclick="onAC()">AC</button>
+                <button id="del" class="btn" onclick="ondel()">DEL</button>
+                <button id="/" class="btn" onclick="ondiv()">/</button>
+            </div>
+            <div class="lin">
+                <button id="7" class="btn" onclick="on7()">7</button>
+                <button id="8" class="btn" onclick="on8()">8</button>
+                <button id="9" class="btn" onclick="on9()">9</button>
+                <button id="*" class="btn" onclick="onmul()">x</button>
+            </div>
+            <div class="lin">
+                <button id="4" class="btn" onclick="on4()">4</button>
+                <button id="5" class="btn" onclick="on5()">5</button>
+                <button id="6" class="btn" onclick="on6()">6</button>
+                <button id="-" class="btn" onclick="onmin()">-</button>
+            </div>
+            <div class="lin">
+                <button id="1" class="btn" onclick="on1()">1</button>
+                <button id="2" class="btn" onclick="on2()">2</button>
+                <button id="3" class="btn" onclick="on3()">3</button>
+                <button id="+" class="btn" onclick="onpl()">+</button>
+            </div>
+            <div class="lin">
+                <button id="zero" class="btn" onclick="on0()">0</button>
+                <button id="." class="btn" onclick="onper()">.</button>
+                <button id="eq" class="btn" onclick="oneq()">=</button>
+            </div>
         </div>
     </div>
 </body>

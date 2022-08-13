@@ -1,0 +1,60 @@
+body{
+    padding-top: 72px;
+}
+
+#container{
+    width: fit-content;
+    height: 395px;
+    margin: 0px auto;
+    /* background-color: blue; */
+    background-color: rgb(249, 252, 215);
+    font-family: "Gotham Rounded", sans-serif;
+}
+
+#input{
+    height: 65px;
+    width: 267px;
+    background-color: rgb(39, 36, 36);
+    color: white;
+    font-size: 32px;
+    padding-top: 22px;
+    text-align: right;
+}
+
+.box {
+    height: 250px;
+}
+
+.lin {
+    display: flex;
+}
+
+button {
+    height: 65px;
+    width: 65px;
+    margin: 1px;
+    border-radius: 0px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 20px;
+    font-weight: 590;
+    background-color: rgb(205, 247, 247);
+    display: inline;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(201, 238, 238);
+}
+
+button:active{
+    background-color: rgb(193, 226, 226);
+}
+
+#AC{
+    width: 132px;
+}
+
+#eq{
+    width: 132px;
+}
